@@ -3,7 +3,6 @@ variable "instance_type" {
   default     = "t3.nano"
 }
 
-
 variable "ami_filter" {
   description = "Name filter and owner for AMI"
 
@@ -30,6 +29,7 @@ variable "environment" {
     network_prefix = "10.0"
   }
 }
+
 
 variable "asg_min" {
   description = "Minimum instance count for the ASG"
